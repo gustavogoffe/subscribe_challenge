@@ -9,8 +9,8 @@
 - Collect inputs
 - Add a key to finish the result
 
-### Product management
-- Validate the inputs and generate ProductInput
+### Product management (1:04:07)
+- Generate ProductInput and validate the input
 - Insert into the ProductItem
 
 - Calculate the taxes in percentage
