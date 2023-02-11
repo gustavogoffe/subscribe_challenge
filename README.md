@@ -3,9 +3,9 @@
 ## My plan to solve this challenge
 
 - Read and break into small steps (15min) (20:49)
-- Install ruby, rspec and factory_bot (5min)
+- Install ruby, rspec and factory_bot (5min) (8:23)
 
-### Input
+### Input (30min) (6:44)
 - Collect inputs
 - Add a key to finish the result
 
