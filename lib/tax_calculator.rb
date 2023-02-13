@@ -6,7 +6,7 @@ class TaxCalculator
 
   EXEMPTIONS = {
     "books" => ['book'],
-    "food" => ['chocolate bar'],
+    "food" => ['chocolate', 'chocolates'],
     "medical products" => ['headache pills'],
   }
 

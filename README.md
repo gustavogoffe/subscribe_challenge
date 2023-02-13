@@ -21,7 +21,7 @@
 
 - Operates the sales tax into the Product Item
 
-### Cart management
+### Cart management (28:20)
 - Add to the cart
   - sum up the total
   - sum up the taxes

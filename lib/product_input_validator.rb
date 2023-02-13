@@ -1,4 +1,4 @@
-class ProductInput
+class ProductInputValidator
   AT_REGEX = /\sat\s/
   ONLY_DIGITS_REGEX = /(\d+)/
 
@@ -16,7 +16,7 @@ class ProductInput
   #   - 1 book at 12.49
   def read
     quantity_and_description, price = input.split(AT_REGEX)
-    quantity, description = quantity_and_description.split(ONLY_DIGITS_REGEX).reject(&:blank?)
+    quantity, description = quantity_and_description.split(ONLY_DIGITS_REGEX).reject(&:empty?)
 
     quantity = quantity.to_f
     description = description&.lstrip || ''

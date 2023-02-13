@@ -2,7 +2,7 @@ require 'spec_helper'
 
 require_relative '../../lib/product_input_validator'
 
-RSpec.describe ProductInput do
+RSpec.describe ProductInputValidator do
   subject(:product_validator) { described_class.new(input) }
 
   describe "#read" do

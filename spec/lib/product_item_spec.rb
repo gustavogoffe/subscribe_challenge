@@ -23,5 +23,21 @@ RSpec.describe ProductItem do
       expect(product_item.sales_tax).to eq(1)
       expect(product_item.price_with_taxes).to eq(11)
     end
+
+    it "roundes up to the nearest 0.5" do
+      product_item = described_class.new(1, "imported bottle of perfume", 47.5)
+
+      product_item.add_sales_taxes
+
+      expect(product_item.sales_tax).to eq(7.15)
+    end
+  end
+
+  describe "#receipt" do
+    before { product_item.add_sales_taxes }
+
+    it "returns the receipt" do
+      expect(product_item.receipt).to eq("2 pencil: 11.0")
+    end
   end
 end
