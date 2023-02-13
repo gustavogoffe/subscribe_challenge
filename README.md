@@ -28,6 +28,12 @@
 
 - Print the receipt
 
+## PS
+
+- The method to round up to the nearest 0.05 hasn't been working correctly. So, I've spent around 20 minutes to fix it.
+- I haven't created the spec for the main.rb file. I had to mock the ``gets.chomp`` method and reproduce every step of
+the flow. I could do it, but it will take more time.
+
 ## Problem explained
 
 - Basic tax: 10%
@@ -46,5 +52,24 @@
   - Total taxes
   - Total
 
+
+## How to run it
+
+- Requires ruby 3.0.2
+- Clone the repo
+- Run: `ruby main.rb`
+
+## Outputs
+
+### Output 1 - OK
+
+### Output 2 - OK
+
+### Output 3 - NOT OK
+
+I think the correct tax for the fourth item should be `35.45` and NOT `35.55`
+because the imported box of chocolates will have a tax of 5%. The total of this
+item is 33.75 (11.25 * 3). Aplying 5% of tax will result in `35.43`. Rouding up
+to the next 0.05 cents: `35.45`
 
 
