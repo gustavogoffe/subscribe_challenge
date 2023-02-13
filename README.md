@@ -2,14 +2,16 @@
 
 ## My plan to solve this challenge
 
-- Read and break into small steps (15min) (20:49)
-- Install ruby, rspec and factory_bot (5min) (8:23)
+### First steps
 
-### Input (30min) (6:44)
+- Read and break into small steps (15min) (20min)
+- Install ruby, rspec and factory_bot (5min) (8min)
+
+### Input (30min) (7min)
 - Collect inputs
 - Add a key to finish the result
 
-### Product management (1:04:07)
+### Product management (1h04min)
 - Generate ProductInput and validate the input
 - Insert into the ProductItem
 
@@ -21,12 +23,16 @@
 
 - Operates the sales tax into the Product Item
 
-### Cart management (28:20)
+### Cart management (28min)
 - Add to the cart
   - sum up the total
   - sum up the taxes
 
 - Print the receipt
+
+### Fixing the round up method (20min)
+
+## TOTAL: 2 hours and 27 minutes.
 
 ## PS
 
@@ -34,7 +40,7 @@
 - I haven't created the spec for the main.rb file. I had to mock the ``gets.chomp`` method and reproduce every step of
 the flow. I could do it, but it will take more time.
 
-## Problem explained
+## Logic to calculate taxes
 
 - Basic tax: 10%
   Exemptions: books, food, and medical products
@@ -55,17 +61,27 @@ the flow. I could do it, but it will take more time.
 
 ## How to run it
 
-- Requires ruby 3.0.2
+- Requires `ruby 3.0.2`
 - Clone the repo
 - Run: `ruby main.rb`
+
+**In order to finish the inputs and get the final receipt, you should type FINISH**
 
 ## Outputs
 
 ### Output 1 - OK
 
+<img width="432" alt="Screenshot 2023-02-13 at 19 09 11" src="https://user-images.githubusercontent.com/54562538/218592589-ef505d98-399d-441c-8684-83018cae3fa6.png">
+
+
 ### Output 2 - OK
 
+<img width="426" alt="Screenshot 2023-02-13 at 19 45 29" src="https://user-images.githubusercontent.com/54562538/218592615-46a4630d-a965-4202-8d91-fccf13f4b674.png">
+
+
 ### Output 3 - NOT OK
+
+<img width="432" alt="Screenshot 2023-02-13 at 19 09 11" src="https://user-images.githubusercontent.com/54562538/218592638-49c5eab2-50cd-40e7-93d7-93f77a47216f.png">
 
 I think the correct tax for the fourth item should be `35.45` and NOT `35.55`
 because the imported box of chocolates will have a tax of 5%. The total of this
