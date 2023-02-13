@@ -1,13 +1,13 @@
 # +Subscribe Challenge
 
-## My plan to solve this challenge
+## My plan to solve this challenge and the time spent in parentheses
 
-### First steps
+### First steps (28 min)
 
-- Read and break into small steps (15min) (20min)
-- Install ruby, rspec and factory_bot (5min) (8min)
+- Read and break into small steps
+- Install ruby, rspec and factory_bot
 
-### Input (30min) (7min)
+### Input (7min)
 - Collect inputs
 - Add a key to finish the result
 
