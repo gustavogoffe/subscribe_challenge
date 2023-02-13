@@ -37,7 +37,7 @@
 ## PS
 
 - The method to round up to the nearest 0.05 hasn't been working correctly. So, I've spent around 20 minutes to fix it.
-- I haven't created the spec for the main.rb file. I had to mock the ``gets.chomp`` method and reproduce every step of
+- I haven't created the spec for the main.rb file. I'd had to mock the ``gets.chomp`` method and reproduce every step of
 the flow. I could do it, but it will take more time.
 
 ## Logic to calculate taxes
