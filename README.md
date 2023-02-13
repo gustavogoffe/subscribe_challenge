@@ -65,7 +65,7 @@ the flow. I could do it, but it will take more time.
 - Clone the repo
 - Run: `ruby main.rb`
 
-**In order to finish the inputs and get the final receipt, you should type FINISH**
+In order to finish the inputs and get the final receipt, you should type **FINISH**
 
 ## Outputs
 
