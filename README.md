@@ -81,7 +81,8 @@ In order to finish the inputs and get the final receipt, you should type **FINIS
 
 ### Output 3 - NOT OK
 
-<img width="432" alt="Screenshot 2023-02-13 at 19 09 11" src="https://user-images.githubusercontent.com/54562538/218592638-49c5eab2-50cd-40e7-93d7-93f77a47216f.png">
+<img width="423" alt="Screenshot 2023-02-13 at 19 47 30" src="https://user-images.githubusercontent.com/54562538/218593450-9ec1c5e1-6023-4c41-b608-35f1561606f6.png">
+
 
 I think the correct tax for the fourth item should be `35.45` and NOT `35.55`
 because the imported box of chocolates will have a tax of 5%. The total of this
